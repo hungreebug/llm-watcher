@@ -5,65 +5,53 @@
             "channel": "Yannic Kilcher",
             "title": "I BUILT A FULLY AUTOMATIC MANSPLAINER",
             "url": "https://www.youtube.com/watch?v=xHi8PUIVyoo",
-            "summary": "The video demonstrates building a fully automated \"mansplainer\" using a portable NVIDIA DGX Spark, which runs a sequence of AI models (Whisper, Mistral Medium, VIVE Voice) to transcribe speech, generate pedantic corrections, and vocalize them. This setup allows for real-time, on-device correction of perceived inaccuracies, showcasing the power of compact, high-performance AI hardware for running complex chained models.",
+            "date": "2026-03-06",
+            "summary": "The creator built a \"fully automated mansplainer\" device, powered by an NVIDIA DGX Spark, which uses a sequence of AI models (Whisper, Mistral, VIVE Voice) to transcribe speech, generate pedantic corrections, and vocalize them. This compact, powerful edge AI device demonstrates running large language and speech models locally to create an interactive, albeit humorously annoying, AI agent.",
             "tags": [
-                "AI Agents",
                 "LLMs",
                 "Edge AI",
                 "Speech-to-Text",
                 "Text-to-Speech",
+                "AI Agents",
                 "Hardware Acceleration",
-                "On-Device AI",
-                "NVIDIA"
-            ],
-            "date": "Recent"
+                "Local Inference"
+            ]
         },
         {
             "channel": "Yannic Kilcher",
             "title": "TiDAR: Think in Diffusion, Talk in Autoregression (Paper Analysis)",
             "url": "https://www.youtube.com/watch?v=taCVT5vDAk0",
-            "summary": "TiDaR proposes a hybrid autoregressive and diffusion language model architecture that leverages idle GPU capacity during LLM inference. This allows it to pre-compute tokens with diffusion, achieving significant speedup while maintaining the exact quality of an autoregressive model.",
+            "date": "2025-12-27",
+            "summary": "Gemini analysis failed (Quota block). Will retry on next run.",
             "tags": [
-                "LLMs",
-                "Diffusion Models",
-                "Autoregression",
-                "GPU Optimization",
-                "Inference Acceleration",
-                "Neural Architecture"
-            ],
-            "date": "Recent"
+                "Error"
+            ]
         },
         {
             "channel": "Yannic Kilcher",
             "title": "Titans: Learning to Memorize at Test Time (Paper Analysis)",
             "url": "https://www.youtube.com/watch?v=v67plFw1nMw",
-            "summary": "The paper \"Titans: Learning to Memorize at Test Time\" introduces a model architecture that addresses the context window limitations of transformer models by learning to memorize and carry information across very long sequences of text. This approach allows the model to connect earlier parts of a text to later ones, effectively extending its contextual understanding beyond typical transformer constraints.",
+            "date": "2025-12-14",
+            "summary": "Gemini analysis failed (Quota block). Will retry on next run.",
             "tags": [
-                "AI Research",
-                "Machine Learning",
-                "Deep Learning",
-                "Natural Language Processing",
-                "Transformer Models",
-                "Context Window",
-                "Memory Networks"
-            ],
-            "date": "Recent"
+                "Error"
+            ]
         },
         {
             "channel": "Matthew Berman",
             "title": "Robin Barnes & Matthew Berman - Summertime / Smooth (The Porch Chronicles)",
             "url": "https://www.youtube.com/watch?v=sY6aClejCcw",
+            "date": "2012-11-29",
             "summary": "No English captions or transcript available for this video upload.",
             "tags": [
                 "No Transcript"
-            ],
-            "date": "Recent"
+            ]
         },
         {
             "channel": "Matthew Berman",
             "title": "Sazerac - Antoine's Cocktail",
             "url": "https://www.youtube.com/watch?v=Xm7tBQP8lCY",
-            "date": "Recent",
+            "date": "2012-02-16",
             "summary": "Gemini analysis failed (Quota block). Will retry on next run.",
             "tags": [
                 "Error"
@@ -73,7 +61,7 @@
             "channel": "Matthew Berman",
             "title": "Sazerac - \"Kentucky Morning Fizz\"",
             "url": "https://www.youtube.com/watch?v=Hvirsnbogwg",
-            "date": "Recent",
+            "date": "2012-02-14",
             "summary": "Gemini analysis failed (Quota block). Will retry on next run.",
             "tags": [
                 "Error"
