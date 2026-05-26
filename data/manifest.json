@@ -1,46 +1,102 @@
 {
     "videos": [
         {
-            "channel": "Yannic Kilcher",
-            "title": "I BUILT A FULLY AUTOMATIC MANSPLAINER",
-            "video_id": "xHi8PUIVyoo",
-            "url": "https://www.youtube.com/watch?v=xHi8PUIVyoo",
-            "date": "2026-03-06"
+            "channel": "Andrej Karpathy",
+            "title": "How I use LLMs",
+            "video_id": "EWvNQjAaOHw",
+            "url": "https://www.youtube.com/watch?v=EWvNQjAaOHw",
+            "date": "2025-02-27"
         },
         {
-            "channel": "Yannic Kilcher",
-            "title": "TiDAR: Think in Diffusion, Talk in Autoregression (Paper Analysis)",
-            "video_id": "taCVT5vDAk0",
-            "url": "https://www.youtube.com/watch?v=taCVT5vDAk0",
-            "date": "2025-12-27"
+            "channel": "Andrej Karpathy",
+            "title": "Deep Dive into LLMs like ChatGPT",
+            "video_id": "7xTGNNLPyMI",
+            "url": "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+            "date": "2025-02-05"
         },
         {
-            "channel": "Yannic Kilcher",
-            "title": "Titans: Learning to Memorize at Test Time (Paper Analysis)",
-            "video_id": "v67plFw1nMw",
-            "url": "https://www.youtube.com/watch?v=v67plFw1nMw",
-            "date": "2025-12-14"
+            "channel": "Matt Wolfe",
+            "title": "AI News: These Google Updates Are Dividing People",
+            "video_id": "kyOPFFy3I38",
+            "url": "https://www.youtube.com/watch?v=kyOPFFy3I38",
+            "date": "2026-05-22"
+        },
+        {
+            "channel": "Matt Wolfe",
+            "title": "AI News: OpenAI Finally Released What We Asked For",
+            "video_id": "Oy7tzmfbl64",
+            "url": "https://www.youtube.com/watch?v=Oy7tzmfbl64",
+            "date": "2026-05-15"
+        },
+        {
+            "channel": "Wes Roth",
+            "title": "Claude, The Pope, and AGI",
+            "video_id": "uFnxyXlRxag",
+            "url": "https://www.youtube.com/watch?v=uFnxyXlRxag",
+            "date": "2026-05-26"
+        },
+        {
+            "channel": "Wes Roth",
+            "title": "The REAL Reason Andrej Karpathy Joined Anthropic",
+            "video_id": "DGw2KKyXuYQ",
+            "url": "https://www.youtube.com/watch?v=DGw2KKyXuYQ",
+            "date": "2026-05-24"
+        },
+        {
+            "channel": "Lex Fridman",
+            "title": "FFmpeg: The Incredible Technology Behind Video on the Internet | Lex Fridman Podcast #496",
+            "video_id": "nepKKz-MzFM",
+            "url": "https://www.youtube.com/watch?v=nepKKz-MzFM",
+            "date": "2026-05-06"
+        },
+        {
+            "channel": "Lex Fridman",
+            "title": "Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495",
+            "video_id": "iKx3gAODybU",
+            "url": "https://www.youtube.com/watch?v=iKx3gAODybU",
+            "date": "2026-04-09"
+        },
+        {
+            "channel": "Two Minute Papers",
+            "title": "DeepMind\u2019s Insane AI Breakthroughs With CEO Demis Hassabis",
+            "video_id": "huAwz_BR8WM",
+            "url": "https://www.youtube.com/watch?v=huAwz_BR8WM",
+            "date": "2026-05-25"
+        },
+        {
+            "channel": "Two Minute Papers",
+            "title": "DeepSeek\u2019s New AI Is A Game Changer",
+            "video_id": "LpXhy2iiaQE",
+            "url": "https://www.youtube.com/watch?v=LpXhy2iiaQE",
+            "date": "2026-05-22"
         },
         {
             "channel": "Matthew Berman",
-            "title": "Robin Barnes & Matthew Berman - Summertime / Smooth (The Porch Chronicles)",
-            "video_id": "sY6aClejCcw",
-            "url": "https://www.youtube.com/watch?v=sY6aClejCcw",
-            "date": "2012-11-29"
+            "title": "This is absolutely CRAZY",
+            "video_id": "Td2TaMWNUtA",
+            "url": "https://www.youtube.com/watch?v=Td2TaMWNUtA",
+            "date": "2026-05-21"
         },
         {
             "channel": "Matthew Berman",
-            "title": "Sazerac - Antoine's Cocktail",
-            "video_id": "Xm7tBQP8lCY",
-            "url": "https://www.youtube.com/watch?v=Xm7tBQP8lCY",
-            "date": "2012-02-16"
+            "title": "Google CEO: Agents, Open Source, Race to AGI, Cybersecurity, Chips, China",
+            "video_id": "IB7IW6zX-H0",
+            "url": "https://www.youtube.com/watch?v=IB7IW6zX-H0",
+            "date": "2026-05-20"
         },
         {
-            "channel": "Matthew Berman",
-            "title": "Sazerac - \"Kentucky Morning Fizz\"",
-            "video_id": "Hvirsnbogwg",
-            "url": "https://www.youtube.com/watch?v=Hvirsnbogwg",
-            "date": "2012-02-14"
+            "channel": "StatQuest",
+            "title": "The Essence of Linear Regression",
+            "video_id": "aFDOzpTeg0s",
+            "url": "https://www.youtube.com/watch?v=aFDOzpTeg0s",
+            "date": "2026-05-18"
+        },
+        {
+            "channel": "StatQuest",
+            "title": "How AI works in Super Simple Terms!!!",
+            "video_id": "q-BiW5srMFQ",
+            "url": "https://www.youtube.com/watch?v=q-BiW5srMFQ",
+            "date": "2026-01-12"
         }
     ]
 }
