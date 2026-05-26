@@ -1,0 +1,83 @@
+{
+    "channel_relationships": "Cross-channel thematic relationship synthesis is currently processing.",
+    "processed_videos": [
+        {
+            "channel": "Yannic Kilcher",
+            "title": "I BUILT A FULLY AUTOMATIC MANSPLAINER",
+            "url": "https://www.youtube.com/watch?v=xHi8PUIVyoo",
+            "summary": "The video demonstrates building a fully automated \"mansplainer\" using a portable NVIDIA DGX Spark, which runs a sequence of AI models (Whisper, Mistral Medium, VIVE Voice) to transcribe speech, generate pedantic corrections, and vocalize them. This setup allows for real-time, on-device correction of perceived inaccuracies, showcasing the power of compact, high-performance AI hardware for running complex chained models.",
+            "tags": [
+                "AI Agents",
+                "LLMs",
+                "Edge AI",
+                "Speech-to-Text",
+                "Text-to-Speech",
+                "Hardware Acceleration",
+                "On-Device AI",
+                "NVIDIA"
+            ],
+            "date": "Recent"
+        },
+        {
+            "channel": "Yannic Kilcher",
+            "title": "TiDAR: Think in Diffusion, Talk in Autoregression (Paper Analysis)",
+            "url": "https://www.youtube.com/watch?v=taCVT5vDAk0",
+            "summary": "TiDaR proposes a hybrid autoregressive and diffusion language model architecture that leverages idle GPU capacity during LLM inference. This allows it to pre-compute tokens with diffusion, achieving significant speedup while maintaining the exact quality of an autoregressive model.",
+            "tags": [
+                "LLMs",
+                "Diffusion Models",
+                "Autoregression",
+                "GPU Optimization",
+                "Inference Acceleration",
+                "Neural Architecture"
+            ],
+            "date": "Recent"
+        },
+        {
+            "channel": "Yannic Kilcher",
+            "title": "Titans: Learning to Memorize at Test Time (Paper Analysis)",
+            "url": "https://www.youtube.com/watch?v=v67plFw1nMw",
+            "summary": "The paper \"Titans: Learning to Memorize at Test Time\" introduces a model architecture that addresses the context window limitations of transformer models by learning to memorize and carry information across very long sequences of text. This approach allows the model to connect earlier parts of a text to later ones, effectively extending its contextual understanding beyond typical transformer constraints.",
+            "tags": [
+                "AI Research",
+                "Machine Learning",
+                "Deep Learning",
+                "Natural Language Processing",
+                "Transformer Models",
+                "Context Window",
+                "Memory Networks"
+            ],
+            "date": "Recent"
+        },
+        {
+            "channel": "Matthew Berman",
+            "title": "Robin Barnes & Matthew Berman - Summertime / Smooth (The Porch Chronicles)",
+            "url": "https://www.youtube.com/watch?v=sY6aClejCcw",
+            "summary": "No English captions or transcript available for this video upload.",
+            "tags": [
+                "No Transcript"
+            ],
+            "date": "Recent"
+        },
+        {
+            "channel": "Matthew Berman",
+            "title": "Sazerac - Antoine's Cocktail",
+            "url": "https://www.youtube.com/watch?v=Xm7tBQP8lCY",
+            "date": "Recent",
+            "summary": "Gemini analysis failed (Quota block). Will retry on next run.",
+            "tags": [
+                "Error"
+            ]
+        },
+        {
+            "channel": "Matthew Berman",
+            "title": "Sazerac - \"Kentucky Morning Fizz\"",
+            "url": "https://www.youtube.com/watch?v=Hvirsnbogwg",
+            "date": "Recent",
+            "summary": "Gemini analysis failed (Quota block). Will retry on next run.",
+            "tags": [
+                "Error"
+            ]
+        }
+    ]
+}

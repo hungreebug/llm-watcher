@@ -1,0 +1,46 @@
+{
+    "videos": [
+        {
+            "channel": "Yannic Kilcher",
+            "title": "I BUILT A FULLY AUTOMATIC MANSPLAINER",
+            "video_id": "xHi8PUIVyoo",
+            "url": "https://www.youtube.com/watch?v=xHi8PUIVyoo",
+            "date": "2026-03-06"
+        },
+        {
+            "channel": "Yannic Kilcher",
+            "title": "TiDAR: Think in Diffusion, Talk in Autoregression (Paper Analysis)",
+            "video_id": "taCVT5vDAk0",
+            "url": "https://www.youtube.com/watch?v=taCVT5vDAk0",
+            "date": "2025-12-27"
+        },
+        {
+            "channel": "Yannic Kilcher",
+            "title": "Titans: Learning to Memorize at Test Time (Paper Analysis)",
+            "video_id": "v67plFw1nMw",
+            "url": "https://www.youtube.com/watch?v=v67plFw1nMw",
+            "date": "2025-12-14"
+        },
+        {
+            "channel": "Matthew Berman",
+            "title": "Robin Barnes & Matthew Berman - Summertime / Smooth (The Porch Chronicles)",
+            "video_id": "sY6aClejCcw",
+            "url": "https://www.youtube.com/watch?v=sY6aClejCcw",
+            "date": "2012-11-29"
+        },
+        {
+            "channel": "Matthew Berman",
+            "title": "Sazerac - Antoine's Cocktail",
+            "video_id": "Xm7tBQP8lCY",
+            "url": "https://www.youtube.com/watch?v=Xm7tBQP8lCY",
+            "date": "2012-02-16"
+        },
+        {
+            "channel": "Matthew Berman",
+            "title": "Sazerac - \"Kentucky Morning Fizz\"",
+            "video_id": "Hvirsnbogwg",
+            "url": "https://www.youtube.com/watch?v=Hvirsnbogwg",
+            "date": "2012-02-14"
+        }
+    ]
+}

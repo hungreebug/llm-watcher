@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM Channel Watcher Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased min-h-screen">
+    <div class="max-w-6xl mx-auto px-4 py-8">
+        <header class="mb-10 border-b border-slate-200 pb-6">
+            <h1 class="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">LLM Channel Watcher</h1>
+            <p class="mt-2 text-sm text-slate-500">Automated monitoring, compression, and macro-thematic mapping of frontline AI channels.</p>
+        </header>
+        <section class="mb-10">
+            <h2 class="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-3">Cross-Channel Thematic Synthesis</h2>
+            <div id="insights-banner" class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm text-slate-700 leading-relaxed font-medium">
+                Loading overarching relationship dynamics...
+            </div>
+        </section>
+        <section>
+            <div class="flex items-center justify-between mb-4">
+                <h2 class="text-xs font-semibold uppercase tracking-wider text-slate-400">Monitored Video Catalog</h2>
+                <div id="video-count" class="text-xs text-slate-400 font-medium"></div>
+            </div>
+            <div class="bg-white border border-slate-200 rounded-xl shadow-sm overflow-hidden">
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse">
+                        <thead>
+                            <tr class="bg-slate-50 border-b border-slate-200 text-xs font-semibold uppercase text-slate-500 tracking-wider">
+                                <th class="py-3.5 px-6 w-48">Speaker</th>
+                                <th class="py-3.5 px-6 w-32">Upload Date</th>
+                                <th class="py-3.5 px-6">Video & Core AI Insight Summary</th>
+                                <th class="py-3.5 px-6 w-56">Domain Tags</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-body" class="divide-y divide-slate-100 text-sm">
+                            <tr><td colspan="4" class="py-10 text-center text-slate-400">Assembling table rows...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script>
+        async function loadDashboardData() {
+            try {
+                const response = await fetch('data/table.json');
+                const data = await response.json();
+                document.getElementById('insights-banner').innerText = data.channel_relationships || "Thematic synthesis is assembling on the next scheduled cron cycle.";
+                const tableBody = document.getElementById('table-body');
+                tableBody.innerHTML = '';
+                const videos = data.processed_videos || [];
+                document.getElementById('video-count').innerText = `${videos.length} videos tracked`;
+                if (videos.length === 0) {
+                    tableBody.innerHTML = `<tr><td colspan="4" class="py-10 text-center text-slate-400">No records found.</td></tr>`;
+                    return;
+                }
+                videos.forEach(video => {
+                    const row = document.createElement('tr');
+                    row.className = 'hover:bg-slate-50 transition-colors duration-150';
+                    const badgeColor = video.channel === 'Yannic Kilcher' ? 'bg-blue-50 text-blue-700 border-blue-100' : 'bg-indigo-50 text-indigo-700 border-indigo-100';
+                    let tagsHTML = '';
+                    if (video.tags) {
+                        video.tags.forEach(tag => {
+                            let style = 'bg-slate-100 text-slate-600';
+                            if (tag === 'Error') style = 'bg-amber-50 text-amber-700 border-amber-100';
+                            if (tag === 'No Transcript') style = 'bg-slate-100 text-slate-400 italic';
+                            tagsHTML += `<span class="inline-flex items-center px-2 py-0.5 rounded-md text-xs font-medium ${style} mr-1 mb-1">${tag}</span>`;
+                        });
+                    }
+                    row.innerHTML = `
+                        <td class="py-4 px-6 font-medium whitespace-nowrap"><span class="px-2.5 py-1 rounded-full text-xs font-semibold border ${badgeColor}">${video.channel}</span></td>
+                        <td class="py-4 px-6 text-slate-500 whitespace-nowrap font-mono text-xs">${video.date}</td>
+                        <td class="py-4 px-6 pr-10">
+                            <div class="font-semibold text-slate-900 hover:text-blue-600 mb-1"><a href="${video.url}" target="_blank" class="hover:underline flex items-center">${video.title}</a></div>
+                            <p class="text-slate-600 text-xs leading-relaxed">${video.summary}</p>
+                        </td>
+                        <td class="py-4 px-6"><div class="flex flex-wrap">${tagsHTML}</div></td>
+                    `;
+                    tableBody.appendChild(row);
+                });
+            } catch (e) {
+                document.getElementById('table-body').innerHTML = `<tr><td colspan="4" class="py-10 text-center text-rose-600 font-medium">Failed to load data table array.</td></tr>`;
+            }
+        }
+        window.addEventListener('DOMContentLoaded', loadDashboardData);
+    </script>
+</body>
+</html>
