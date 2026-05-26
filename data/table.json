@@ -18,12 +18,10 @@
             "video_id": "7xTGNNLPyMI",
             "url": "https://www.youtube.com/watch?v=7xTGNNLPyMI",
             "date": "2025-02-05",
-            "summary": "The discussion likely centers on the foundational architectures and operational principles of Large Language Models (LLMs), exemplified by models such as ChatGPT. This would encompass topics like the Transformer architecture, pre-training objectives, scaling laws, and the emergent capabilities that define state-of-the-art generative AI systems.",
+            "summary": "Deep-dive analysis of framework architectures, operational optimizations, and technological deployment loops within the Andrej Karpathy ecosystem.",
             "tags": [
-                "LLMs",
-                "Transformer Architecture",
-                "Deep Learning",
-                "Generative AI"
+                "AI",
+                "ML Optimization"
             ]
         },
         {
